@@ -1,0 +1,21 @@
+/* Empty. Add your own CSS if you like */
+.view-read{
+  position: relative;
+}
+
+.view-read> img{
+  margin-top: 50%;
+}
+.status-bar{
+  position: absolute;
+  height: 200px;
+  background: gray;
+  width:100%;
+  color: #fff;
+}
+.status-bar> p{
+  text-align: center;
+}
+.color-ok{
+  background: #22B06D;
+}

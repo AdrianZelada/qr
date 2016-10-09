@@ -1,0 +1,157 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+*/
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #319FD4 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+@font-face {
+  font-family: 'Sifonn-Basic';
+  src: url('../fonts/Sifonn-Basic.eot') format('embedded-opentype'), url('../fonts/Sifonn-Basic.woff') format('woff'), url('../fonts/Sifonn-Basic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Sifonn-Basic' !important;
+}
+
+.view-read{
+  position: relative;
+}
+
+.view-read> img{
+  margin-top: 50%;
+}
+.status-bar{
+  position: absolute;
+  height: 200px;
+  background: gray;
+  width:100%;
+  color: #fff;
+}
+.status-bar> p{
+  text-align: center;
+}
+.color-ok{
+  background: #22B06D;
+}
+.list-modal{
+  margin-top:10%;
+}
+.init-letter{
+  height: 40px;
+  width: 40px;
+  background: #0a91d0;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 25px !important;
+  padding-top: 13px;
+  color: white !important;
+}
+.margin-event{
+  margin-top: 35px;
+}
+/*
+.animate.ng-enter,
+.ng-leave
+{
+  -webkit-animation: fadeInLeftItem 1s;
+  animation: fadeInLeftItem 1s;
+
+  -webkit-transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -moz-transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -ms-transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -o-transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  position: relative;
+  display: block;
+}
+.animate.ng-enter-stagger{
+  -webkit-animation-delay:100ms;
+  animation-delay:100ms;
+
+
+  -webkit-animation-duration:0;
+  animation-duration:0;
+}
+.animate.ng-enter.ng-enter-active,
+.ng-leave {
+  opacity: 1;
+  top: 0;
+  height: 30px;
+}
+
+.animate.ng-leave.ng-leave-active,
+.ng-enter {
+  opacity: 0;
+  top: -50px;
+  height: 0px;
+}*/
+/*
+@-webkit-keyframes fadeInLeftItem {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeftItem {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@-moz-keyframes fadeInLeftItem {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+*/

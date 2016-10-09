@@ -1,0 +1,18 @@
+<ion-view view-title="Lector">
+  <ion-content class="padding" scroll="false">
+    <div class="view-read">
+      <div class="status-bar" ng-class="{'ok':'color-ok','recicle':'color-orange','error':'color-red'}[data.status]">
+        <p>Evento Seleccionado</p>
+        <p>Valido || utilizado || Error</p>
+        <div class="row">
+          <button class="col col-50 col-offset-25 button button-full button-positive">
+            Re Utilizar Codigo
+          </button>
+        </div>
+      </div>
+
+      <img src="img/qr.png" alt="" ng-click="scanBarcode()" width="100%" height="100%">
+
+    </div>
+  </ion-content>
+</ion-view>
